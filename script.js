@@ -41,7 +41,7 @@ let numberStart = document.getElementById("ip").value;
 		return new Promise((resolve)=> {
 			let divide = data + 10;
 			setTimeout(()=> {
-				document.getElementById("output").innerHTML = `Result: ${divide}`;
+				document.getElementById("output").innerHTML = `Final Result: ${divide}`;
 				resolve(divide);
 			}, 1000)
 		});
